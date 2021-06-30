@@ -1,0 +1,1004 @@
+{
+	"scenario": [
+		{
+			"cmd": "ability",
+			"pos": 1,
+			"kind": "",
+			"name": "クリーピング・シャドウ＋",
+			"to": "player",
+			"motion": "on",
+			"summon": 0,
+			"serif": "",
+			"voice": "voice\/3040278000_ability_them1_b.mp3",
+			"comment": "<div class=prt-text-small>自分に逆境効果\/闇属性追撃効果\/ターン進行時に攻撃行動を2回行う<br><span class=text-blue>◆自分のHPを最大値の40%消費<\/span><\/div>",
+			"show_ability_name": "",
+			"ability_effect_type": "",
+			"motion_label": "ability",
+			"force_motion": false,
+			"no_effect": false,
+			"ability_wait": false,
+			"nodamage_ability_nowait": true
+		}, {
+			"cmd": "effect",
+			"to": "player",
+			"kind": "ab_3040278000_02",
+			"mode": "serial",
+			"name": "",
+			"list": [1],
+			"wait": "15"
+		}, {
+			"cmd": "condition",
+			"pos": 1,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "1181"
+				}, {
+					"status": "1541"
+				}, {
+					"status": "6083"
+				}]
+			}
+		}, {
+			"cmd": "message",
+			"data": {
+				"player": {
+					"1": [{
+						"pos": 1,
+						"type": "1",
+						"text": "逆境",
+						"status": "1181"
+					}, {
+						"pos": 1,
+						"type": "1",
+						"text": "闇属性追撃",
+						"status": "1383"
+					}, {
+						"pos": 1,
+						"type": "1",
+						"text": "再攻撃",
+						"status": "6107"
+					}]
+				}
+			},
+			"nodamage_ability_nowait": true
+		},
+		[], {
+			"cmd": "condition",
+			"pos": 1,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "1383"
+				}, {
+					"status": "1181"
+				}, {
+					"status": "1541"
+				}, {
+					"status": "6083"
+				}]
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 1,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "6107"
+				}, {
+					"status": "1383"
+				}, {
+					"status": "1181"
+				}, {
+					"status": "1541"
+				}, {
+					"status": "6083"
+				}]
+			}
+		}, {
+			"cmd": "damage",
+			"color": 0,
+			"to": "player",
+			"effect": "",
+			"mode": "parallel",
+			"is_rengeki": 0,
+			"list": [{
+				"pos": 1,
+				"value": 11599,
+				"split": ["1", "1", "5", "9", "9"],
+				"hp": 17399,
+				"color": 0,
+				"size": "m",
+				"critical": false,
+				"miss": 0,
+				"guard": false,
+				"no_damage_motion": true
+			}],
+			"wait": ""
+		}, {
+			"cmd": "modechange",
+			"mode": 1,
+			"pos": 0,
+			"gauge": 0,
+			"additional": 0,
+			"ability_or_summon": true,
+			"log_type": 1,
+			"no_motion": false
+		}, {
+			"cmd": "special_change",
+			"pos": 0,
+			"name": "サムシング・デセプション",
+			"text": "闇属性ダメージ(特大)\/闇属性キャラにカウンター効果(被ダメージ\/3回)\/ブロック効果"
+		}, {
+			"cmd": "boss_gauge",
+			"pos": 0,
+			"name": {
+				"ja": "Lv100 シュヴァリエ・マグナ",
+				"en": "Lvl 100 Luminiera Omega"
+			},
+			"attr": 5,
+			"hp": 30122269,
+			"hpmax": 100000000,
+			"recast": 3,
+			"recastmax": 4,
+			"no_attribute_flag": false
+		}, {
+			"cmd": "formchange",
+			"form": 1,
+			"param": {
+				"attr": 5,
+				"name": {
+					"ja": "Lv100 シュヴァリエ・マグナ",
+					"en": "Lvl 100 Luminiera Omega"
+				},
+				"effect": "ehit_8101133",
+				"cjs": "enemy_8101133",
+				"extra_attr": 0,
+				"type": null,
+				"motion_conf": null
+			},
+			"pos": 0,
+			"to": "boss",
+			"type": null,
+			"no_motion": null,
+			"no_change_motion": null,
+			"bg_image": "\/sp\/raid\/bg\/common_019.jpg",
+			"fullscreen": "",
+			"runaway_motion_flg": "",
+			"fatigue_motion_flg": "",
+			"effect_all": "",
+			"is_large_dead": false
+		}, {
+			"cmd": "boss_gauge",
+			"pos": 1,
+			"name": {
+				"ja": "Lv100 プライマルビット",
+				"en": "Lvl 100 Primal Bit"
+			},
+			"attr": 5,
+			"hp": 3425318,
+			"hpmax": 8500000,
+			"recast": 3,
+			"recastmax": 3,
+			"no_attribute_flag": false
+		}, {
+			"cmd": "formchange",
+			"form": 1,
+			"param": {
+				"attr": 5,
+				"name": {
+					"ja": "Lv100 プライマルビット",
+					"en": "Lvl 100 Primal Bit"
+				},
+				"effect": "ehit_8100333",
+				"cjs": "enemy_8101143",
+				"extra_attr": 0,
+				"type": null,
+				"motion_conf": null
+			},
+			"pos": 1,
+			"to": "boss",
+			"type": null,
+			"no_motion": null,
+			"no_change_motion": null,
+			"bg_image": "\/sp\/raid\/bg\/common_019.jpg",
+			"fullscreen": "",
+			"runaway_motion_flg": "",
+			"fatigue_motion_flg": "",
+			"effect_all": "",
+			"is_large_dead": false
+		}, {
+			"cmd": "boss_gauge",
+			"pos": 2,
+			"name": {
+				"ja": "Lv100 プライマルビット",
+				"en": "Lvl 100 Primal Bit"
+			},
+			"attr": 5,
+			"hp": 27891199,
+			"hpmax": 35000000,
+			"recast": 1,
+			"recastmax": 3,
+			"no_attribute_flag": false
+		}, {
+			"cmd": "formchange",
+			"form": 1,
+			"param": {
+				"attr": 5,
+				"name": {
+					"ja": "Lv100 プライマルビット",
+					"en": "Lvl 100 Primal Bit"
+				},
+				"effect": "ehit_8101153",
+				"cjs": "enemy_8101153",
+				"extra_attr": 0,
+				"type": null,
+				"motion_conf": null
+			},
+			"pos": 2,
+			"to": "boss",
+			"type": null,
+			"no_motion": null,
+			"no_change_motion": null,
+			"bg_image": "\/sp\/raid\/bg\/common_019.jpg",
+			"fullscreen": "",
+			"runaway_motion_flg": "",
+			"fatigue_motion_flg": "",
+			"effect_all": "",
+			"is_large_dead": false
+		}, {
+			"cmd": "bgm",
+			"value": "bgm\/36_chevalier_03.mp3",
+			"fix_bgm": false
+		}, {
+			"cmd": "condition",
+			"pos": 0,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "6083",
+					"personal_buff_user_id": false,
+					"personal_status": "6083",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "1073",
+					"personal_buff_user_id": false,
+					"personal_status": "1073",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "6415_13",
+					"personal_buff_user_id": false,
+					"personal_status": "6415_13",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": null,
+				"num": 0
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 1,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "6107",
+					"personal_buff_user_id": false,
+					"personal_status": "6107",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "1383",
+					"personal_buff_user_id": false,
+					"personal_status": "1383",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "1181",
+					"personal_buff_user_id": false,
+					"personal_status": "1181",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "1541",
+					"personal_buff_user_id": false,
+					"personal_status": "1541",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "6083",
+					"personal_buff_user_id": false,
+					"personal_status": "6083",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": null,
+				"num": 1
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 2,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "1405_21",
+					"personal_buff_user_id": false,
+					"personal_status": "1405_21",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "1313",
+					"personal_buff_user_id": false,
+					"personal_status": "1313",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "6083",
+					"personal_buff_user_id": false,
+					"personal_status": "6083",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "1541",
+					"personal_buff_user_id": false,
+					"personal_status": "1541",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "6684_4",
+					"personal_buff_user_id": false,
+					"personal_status": "6684_4",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": null,
+				"num": 2
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 3,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "1541",
+					"personal_buff_user_id": false,
+					"personal_status": "1541",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "6083",
+					"personal_buff_user_id": false,
+					"personal_status": "6083",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": null,
+				"num": 3
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 0,
+			"to": "boss",
+			"condition": {
+				"buff": [{
+					"status": "1009_1",
+					"personal_buff_user_id": false,
+					"personal_status": "1009_1",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "1009_1",
+					"personal_buff_user_id": false,
+					"personal_status": "1009_1",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": null,
+				"num": 1
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 1,
+			"to": "boss",
+			"condition": {
+				"buff": null,
+				"debuff": null,
+				"num": 2
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 2,
+			"to": "boss",
+			"condition": {
+				"buff": null,
+				"debuff": null,
+				"num": 3
+			}
+		}, {
+			"cmd": "condition",
+			"pos": null,
+			"to": "field_effect",
+			"condition": [{
+				"status": "1490",
+				"is_personal": false
+			}]
+		}, {
+			"cmd": "condition",
+			"pos": null,
+			"to": "effect_unit",
+			"condition": []
+		}
+	],
+	"status": {
+		"supporter": {
+			"recast": "3"
+		},
+		"summon": {
+			"recast": ["0", "0", "0", "0", "0"]
+		},
+		"summon_enable": 1,
+		"balloon": {
+			"boss": [{
+				"pos": 0,
+				"serif": "",
+				"voice": null
+			}, {
+				"pos": 1,
+				"serif": "",
+				"voice": null
+			}, {
+				"pos": 2,
+				"serif": "",
+				"voice": null
+			}]
+		},
+		"fellow": 1,
+		"timer": 4991,
+		"turn": 9,
+		"ability_turn": 8,
+		"treasure": {
+			"treasure_type_1": 0,
+			"treasure_type_2": 0,
+			"treasure_type_3": 0,
+			"treasure_type_4": 0,
+			"treasure_type_5": 0,
+			"treasure_type_11": 0,
+			"treasure_type_13": 0
+		},
+		"lupi": 0,
+		"bossmode": [{
+			"modechange": "3",
+			"modegauge": 0,
+			"log_type": 1
+		}, {
+			"modechange": 1,
+			"modegauge": 0,
+			"log_type": 1
+		}, {
+			"modechange": "1",
+			"modegauge": 64,
+			"log_type": 1
+		}],
+		"voice": {
+			"special_skill_gauge_voice": null,
+			"dying_voice": null,
+			"enemy_debuff_voice": null,
+			"turnend_voice": null
+		},
+		"is_escorted_character_dead": 0,
+		"skip_special_motion_setting": [{
+			"pos": 0,
+			"setting_id": 1,
+			"skip_flag": true
+		}, {
+			"pos": 1,
+			"setting_id": "3040278000",
+			"skip_flag": true
+		}, {
+			"pos": 2,
+			"setting_id": "3040035000",
+			"skip_flag": true
+		}, {
+			"pos": 3,
+			"setting_id": "3040092000",
+			"skip_flag": true
+		}, {
+			"pos": 4,
+			"setting_id": "3040222000",
+			"skip_flag": true
+		}, {
+			"pos": 5,
+			"setting_id": "3040169000",
+			"skip_flag": true
+		}],
+		"special_skill_activate": [{
+			"pos": 0,
+			"special_skill_activate_flag": true
+		}, {
+			"pos": 1,
+			"special_skill_activate_flag": true
+		}, {
+			"pos": 2,
+			"special_skill_activate_flag": true
+		}, {
+			"pos": 3,
+			"special_skill_activate_flag": true
+		}],
+		"is_guard_status": [{
+			"pos": 0,
+			"is_guard_status": "0",
+			"is_guard_unavailable": "0"
+		}, {
+			"pos": 1,
+			"is_guard_status": "0",
+			"is_guard_unavailable": "0"
+		}, {
+			"pos": 2,
+			"is_guard_status": "0",
+			"is_guard_unavailable": "0"
+		}, {
+			"pos": 3,
+			"is_guard_status": "0",
+			"is_guard_unavailable": "0"
+		}],
+		"chain_burst_gauge": "0",
+		"special_skill_indicate": [],
+		"is_forced_retire": false,
+		"ability": {
+			"1": {
+				"mode": "player",
+				"pos": 0,
+				"alive": 1,
+				"src": "http:\/\/game.granbluefantasy.jp\/assets\/img\/sp\/assets\/leader\/ds\/370601_me_1_01.jpg",
+				"list": {
+					"1": [{
+						"class": "ico-ability23_1 ability-character-num-1-1",
+						"ability-id": "285",
+						"ability-recast": "1",
+						"recaset-default": "5",
+						"recast-additional-comment": "",
+						"duration": "2",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 0,
+						"text-data": "カウンター効果(被ダメージ\/3回)\/自分の防御UP\/敵対心UP",
+						"ability-name": "ナイフハンド・ストライク",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": false,
+						"ability_detail": {
+							"buff": [{
+								"status": "1541",
+								"detail": "ダメージを受けた際に相手に攻撃する状態",
+								"effect": "2ターン",
+								"help_flag": ""
+							}, {
+								"status": "1019",
+								"detail": "防御力が上昇した状態",
+								"effect": "2ターン",
+								"help_flag": ""
+							}, {
+								"status": "1463",
+								"detail": "攻撃のターゲットになりやすい状態",
+								"effect": "2ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a1 ability-icon-num-1-1",
+						"value": "1"
+					}],
+					"2": [{
+						"class": "ico-ability302_1 ability-character-num-1-2",
+						"ability-id": "8000",
+						"ability-recast": "11",
+						"recaset-default": "15",
+						"recast-additional-comment": "",
+						"duration": "",
+						"duration-second": "",
+						"duration-type": "",
+						"ability-character-num": 0,
+						"text-data": "味方全体がターン経過なしで通常攻撃を実行",
+						"ability-name": "ツープラトン",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": false
+					}, {
+						"class": "num-recast-a11 ability-icon-num-1-2",
+						"value": "11"
+					}]
+				}
+			},
+			"2": {
+				"mode": "npc",
+				"pos": 1,
+				"alive": 1,
+				"src": "http:\/\/game.granbluefantasy.jp\/assets\/img\/sp\/assets\/npc\/ds\/3040278000.jpg",
+				"list": {
+					"1": [{
+						"class": "ico-ability1162_1 ability-character-num-2-1",
+						"ability-id": "221201",
+						"ability-recast": "2",
+						"recaset-default": "6",
+						"recast-additional-comment": "",
+						"duration": "3",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 1,
+						"text-data": "敵に8回闇属性ダメージ\/暗闇効果\/強襲効果を付与",
+						"ability-name": "アサルト・ブロー＋",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "66666666,,",
+						"full-auto-permit-flag": false,
+						"ability_detail": {
+							"debuff": [{
+								"status": "1032_33",
+								"detail": "攻撃が稀にミスになる状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}, {
+								"status": "63353",
+								"detail": "ブレイク状態の敵に対して発動する効果を受ける状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a2 ability-icon-num-2-1",
+						"value": "2"
+					}],
+					"2": [{
+						"class": "ico-ability1163_3 ability-character-num-2-2",
+						"ability-id": "221221",
+						"ability-recast": 4,
+						"recaset-default": "4",
+						"recast-additional-comment": "",
+						"duration": "8",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 1,
+						"text-data": "<div class=prt-text-small>自分に逆境効果\/闇属性追撃効果\/ターン進行時に攻撃行動を2回行う<br><span class=text-blue>◆自分のHPを最大値の40%消費<\/span><\/div>",
+						"ability-name": "クリーピング・シャドウ＋",
+						"icon-type": "3",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": ",6,,",
+						"full-auto-permit-flag": false,
+						"ability_detail": {
+							"buff": [{
+								"status": "1181",
+								"detail": "自分のHPが少なくなるほど攻撃力が大きく上昇する状態",
+								"effect": "8ターン",
+								"help_flag": ""
+							}, {
+								"status": "1383",
+								"detail": "通常攻撃時に闇属性の追加ダメージが発生する状態",
+								"effect": "1ターン",
+								"help_flag": ""
+							}, {
+								"status": "6107",
+								"detail": "ターン進行時に攻撃行動を2回行う状態",
+								"effect": "1ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a4 ability-icon-num-2-2",
+						"value": 4
+					}],
+					"3": [{
+						"class": "ico-ability1164_3 ability-character-num-2-3",
+						"ability-id": "221231",
+						"ability-recast": "2",
+						"recaset-default": "6",
+						"recast-additional-comment": "",
+						"duration": "1",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 1,
+						"text-data": "<div class=prt-text-small>自分の攻撃大幅UP(敵ブレイク時のみ\/1回)\/クリティカル確率UP　<span class=text-blue>◆瀕死状態の場合、敵の全ての攻撃を回避(1回)<\/span><\/div>",
+						"ability-name": "ラフィング・ファントム",
+						"icon-type": "3",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": false,
+						"ability_detail": {
+							"buff": [{
+								"status": "1053",
+								"detail": "ブレイク状態の敵への攻撃力が上昇した状態",
+								"effect": "1ターン",
+								"help_flag": ""
+							}, {
+								"status": "1001",
+								"detail": "攻撃力が上昇した状態",
+								"effect": "1ターン",
+								"help_flag": ""
+							}, {
+								"status": "1279",
+								"detail": "弱点を突いた際に稀にダメージが上昇する状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}, {
+								"status": "1405_21",
+								"detail": "効果中に回数分、被ダメージと弱体効果を無効化する状態",
+								"effect": "",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a2 ability-icon-num-2-3",
+						"value": "2"
+					}]
+				}
+			},
+			"3": {
+				"mode": "npc",
+				"pos": 2,
+				"alive": 1,
+				"src": "http:\/\/game.granbluefantasy.jp\/assets\/img\/sp\/assets\/npc\/ds\/3040035000.jpg",
+				"list": {
+					"1": [{
+						"class": "ico-ability1025_3 ability-character-num-3-1",
+						"ability-id": "218121",
+						"ability-recast": "2",
+						"recaset-default": "6",
+						"recast-additional-comment": "",
+						"duration": "3",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 2,
+						"text-data": "自分の通常攻撃の与ダメージUP\/闇属性追撃効果",
+						"ability-name": "惡門・羅刹＋＋",
+						"icon-type": "3",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": ",6",
+						"full-auto-permit-flag": false,
+						"ability_detail": {
+							"buff": [{
+								"status": "6568",
+								"detail": "通常攻撃、カウンターで与えるダメージが上昇した状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}, {
+								"status": "1383",
+								"detail": "通常攻撃時に闇属性の追加ダメージが発生する状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a2 ability-icon-num-3-1",
+						"value": "2"
+					}],
+					"2": [{
+						"class": "ico-ability23_1 ability-character-num-3-2",
+						"ability-id": "218151",
+						"ability-recast": "0",
+						"recaset-default": "6",
+						"recast-additional-comment": "",
+						"duration": "1",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 2,
+						"text-data": "自分の敵対心UP\/カウンター効果(回避・被ダメージ\/6回)",
+						"ability-name": "迅門・紫電＋＋",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"buff": [{
+								"status": "1463",
+								"detail": "攻撃のターゲットになりやすい状態",
+								"effect": "1ターン",
+								"help_flag": ""
+							}, {
+								"status": "1062_3",
+								"detail": "通常攻撃を無効化または、ダメージを受けた際に相手に攻撃する状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-3-2",
+						"value": "0"
+					}],
+					"3": [{
+						"class": "ico-ability1009_1 ability-character-num-3-3",
+						"ability-id": "218171",
+						"ability-recast": "0",
+						"recaset-default": "6",
+						"recast-additional-comment": "",
+						"duration": "3",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 2,
+						"text-data": "敵全体に6倍闇属性ダメージ\/恐怖効果\/命中率DOWN",
+						"ability-name": "鬼門・修羅＋",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": ",6,,",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"debuff": [{
+								"status": "1374_13",
+								"detail": "CTが溜まらなくなる状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}, {
+								"status": "1032_43",
+								"detail": "通常攻撃\/特殊技\/特殊行動が確率でミスになる状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-3-3",
+						"value": "0"
+					}],
+					"4": [{
+						"class": "ico-ability365_3 ability-character-num-3-4",
+						"ability-id": "8019",
+						"ability-recast": "2",
+						"recaset-default": "9999",
+						"recast-additional-comment": "",
+						"duration": "4",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 2,
+						"text-data": "<div class=prt-text-small>4ターンの間敵からの攻撃を全て回避\/ターン進行時に攻撃行動を2回行う　<span class=text-blue>◆再使用不可<\/span><\/div>",
+						"ability-name": "六崩の悟り",
+						"icon-type": "3",
+						"ability-pick": "",
+						"start_skill_set_recast": "2",
+						"ability-attribute": "",
+						"full-auto-permit-flag": false,
+						"ability_detail": {
+							"buff": [{
+								"status": "1019",
+								"detail": "効果中の被ダメージと弱体効果を無効化する状態(消去不可)",
+								"effect": "4ターン",
+								"help_flag": ""
+							}, {
+								"status": "6107",
+								"detail": "ターン進行時に攻撃行動を2回行う状態(消去不可)",
+								"effect": "4ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a2 ability-icon-num-3-4",
+						"value": "2"
+					}]
+				}
+			},
+			"4": {
+				"mode": "npc",
+				"pos": 3,
+				"alive": 1,
+				"src": "http:\/\/game.granbluefantasy.jp\/assets\/img\/sp\/assets\/npc\/ds\/3040092000.jpg",
+				"list": {
+					"1": [{
+						"class": "ico-ability258_1 ability-character-num-4-1",
+						"ability-id": "2340",
+						"ability-recast": "0",
+						"recaset-default": "8",
+						"recast-additional-comment": "",
+						"duration": "3",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 3,
+						"text-data": "<div class=prt-text-small>敵に弱点属性ダメージ\/自分に逆境効果<br><span class=text-blue>◆自分の残りHPが少ないほどダメージUP<\/span><\/div>",
+						"ability-name": "レゾルーション＋",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"buff": [{
+								"status": "1181",
+								"detail": "自分のHPが少なくなるほど攻撃力が大きく上昇する状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-4-1",
+						"value": "0"
+					}],
+					"2": [{
+						"class": "ico-ability259_3 ability-character-num-4-2",
+						"ability-id": "6199",
+						"ability-recast": "10",
+						"recaset-default": "14",
+						"recast-additional-comment": "",
+						"duration": "1",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 3,
+						"text-data": "<div class=prt-text-small>味方全体のHPを1にする\/1ターンの間被ダメージ無効\/4ターンの間HP吸収効果付与<\/div>",
+						"ability-name": "コンジャクション＋",
+						"icon-type": "3",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": false,
+						"ability_detail": {
+							"buff": [{
+								"status": "1028",
+								"detail": "次に受ける被ダメージを無効化する状態",
+								"effect": "1ターン",
+								"help_flag": ""
+							}, {
+								"status": "1180",
+								"detail": "通常攻撃の与ダメージの一部を自身のHPに吸収する状態(消去不可)",
+								"effect": "4ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a10 ability-icon-num-4-2",
+						"value": "10"
+					}],
+					"3": [{
+						"class": "ico-ability209_1 ability-character-num-4-3",
+						"ability-id": "2822",
+						"ability-recast": "0",
+						"recaset-default": "6",
+						"recast-additional-comment": "",
+						"duration": "",
+						"duration-second": "180",
+						"duration-type": "",
+						"ability-character-num": 3,
+						"text-data": "敵全体に闇属性ダメージ\/ランダムで弱体効果",
+						"ability-name": "サンダー",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"debuff": [{
+								"status": "1428",
+								"detail": "攻撃力が減少した状態(累積)",
+								"effect": "180秒",
+								"help_flag": ""
+							}, {
+								"status": "1427",
+								"detail": "防御力が減少した状態(累積)",
+								"effect": "180秒",
+								"help_flag": ""
+							}, {
+								"status": "1524",
+								"detail": "弱体耐性が減少した状態(累積)",
+								"effect": "180秒",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-4-3",
+						"value": "0"
+					}]
+				}
+			}
+		}
+	},
+	"navi_information": [{
+		"navi": "none"
+	}],
+	"duplicate_key": 1,
+	"lyria_pos": -1,
+	"microtime": "1613637601.49711300"
+}

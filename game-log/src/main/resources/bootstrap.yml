@@ -1,0 +1,24 @@
+server:
+  port: 20000
+spring:
+  profiles:
+    active:
+      - dev
+  application:
+    name: game-log
+  cloud:
+    nacos:
+      discovery:
+        ip: 127.0.0.1
+        register-enabled: true
+        server-addr: 127.0.0.1:8848
+        namespace: b8142ed2-6e55-49f3-9e7a-ca83ed3679b6
+        metadata:
+          server-id: ${log.server.config.server-id}
+          service-id: ${log.server.config.service-id}
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        namespace: b8142ed2-6e55-49f3-9e7a-ca83ed3679b6
+        extension-configs:
+          - data-id: basic.yaml

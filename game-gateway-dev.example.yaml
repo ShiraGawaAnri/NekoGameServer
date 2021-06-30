@@ -1,0 +1,14 @@
+request:
+  config:
+    limiters:
+      - messageId: 999
+        startTime: 0
+        endTime: 0
+        maintenance: false
+        #是否为维护模块: true - 提示维护并显示起始时间&结束时间 false - 提示请求拒绝
+        switchOn: false
+        #开关: true - 此条目生效 false - 此条目无效
+      - messageId: 202
+        startTime: 0
+        endTime: 0
+        switchOn: false

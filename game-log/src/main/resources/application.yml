@@ -1,0 +1,10 @@
+log:
+  server:
+    config:
+      service-id: 20000
+      server-id: 20000
+      game-logic: log-gamelogic-message-topic
+      game-raid-battle: log-game-raid-battle-message-topic
+      game-web-center: log-game-web-center-message-topic
+      game-manager-center: log-game-backend-manager-center
+      topic-group-id: ${log.server.config.server-id}

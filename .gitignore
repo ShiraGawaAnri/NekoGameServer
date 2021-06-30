@@ -1,0 +1,62 @@
+# maven ignore
+target/
+*.jar
+!.mvn/wrapper/*
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+*.orig
+
+# idea ignore
+.idea/
+*.ipr
+*.iws
+.mymetadata
+.checkstyle
+.classpath
+.project
+.class
+.war
+.zip
+.rar
+*.iml
+.settings/*
+/indexes/*
+/target/*
+/src/main/webapp/WEB-INF/classes/*
+/src/main/webapp/userfiles/*
+/target/
+application-prod.properties
+application-prod.yml
+#pom.xml
+mybaties-*.xml
+
+# vs studio
+.vs/
+
+# svn
+.svn/
+
+# dependencies
+/node_modules
+
+# production
+/build

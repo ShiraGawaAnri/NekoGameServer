@@ -1,0 +1,14 @@
+game:
+  server:
+    config:
+      service-id: 102   #服务器中配置服务Id
+      server-id: 10102  #当前服务器的id
+    log:
+      log-game-message-topic: log-game-raid-battle-message-topic
+      who-am-i: Rb
+  channel:
+    gateway-game-message-topic: rb-gateway-game-message-topic
+    business-game-message-topic: rb-business-game-message-topic
+    rpc-request-game-message-topic: rpc-request-game-message-topic
+    rpc-response-game-message-topic: rpc-response-game-message-topic
+    topic-group-id: ${game.server.config.server-id}

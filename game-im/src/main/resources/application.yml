@@ -1,0 +1,15 @@
+game:
+  server:
+    config:
+      service-id: 103   #服务器中配置服务Id
+      server-id: 10301  #当前服务器的id
+      business-game-message-topic: business-game-message-topic-${game.server.config.server-id}
+      gateway-game-message-topic: gateway-game-message-topic
+  channel:
+    gateway-game-message-topic: gateway-game-message-topic
+    business-game-message-topic: business-game-message-topic
+    rpc-request-game-message-topic: rpc-request-game-message-topic
+    rpc-response-game-message-topic: rpc-response-game-message-topic
+    topic-group-id: ${game.server.config.server-id}
+      
+        

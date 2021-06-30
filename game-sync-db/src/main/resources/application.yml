@@ -1,0 +1,41 @@
+server:
+  port: 30001
+spring:
+  application:
+    name: game-sync-db
+  profiles:
+    active:
+      - dev
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      username: nekoroot
+      password: nekoroot
+      authentication-database: admin
+      database: nekonade
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: nekoroot
+  cloud:
+    nacos:
+      discovery:
+        ip: 127.0.0.1
+        register-enabled: true
+        server-addr: 127.0.0.1:8848
+        namespace: b8142ed2-6e55-49f3-9e7a-ca83ed3679b6
+        service: game-sync-db
+game:
+  server:
+    config:
+      service-id: 100000   #服务器中配置服务Id
+      server-id: 100000  #当前服务器的id
+      business-game-message-topic: business-game-message-topic-${game.server.config.server-id}
+      gateway-game-message-topic: gateway-game-message-topic
+  channel:
+    gateway-game-message-topic: gateway-game-message-topic
+    business-game-message-topic: business-game-message-topic
+    rpc-request-game-message-topic: rpc-request-game-message-topic
+    rpc-response-game-message-topic: rpc-response-game-message-topic
+    topic-group-id: ${game.server.config.server-id}

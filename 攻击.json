@@ -1,0 +1,2875 @@
+{
+	"scenario": [
+		{
+			"cmd": "contribution",
+			"amount": 121117,
+			"limit_flag": false
+		}, {
+			"cmd": "condition",
+			"pos": 0,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "1073",
+					"personal_buff_user_id": false,
+					"personal_status": "1073",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "6415_13",
+					"personal_buff_user_id": false,
+					"personal_status": "6415_13",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": null,
+				"num": 0
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 1,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "1541",
+					"personal_buff_user_id": false,
+					"personal_status": "1541",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": [{
+					"status": "1463",
+					"is_unusable_harb": false,
+					"personal_debuff_user_id": false,
+					"personal_status": "1463",
+					"personal_debuff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"num": 1
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 2,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "6684_3",
+					"personal_buff_user_id": false,
+					"personal_status": "6684_3",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": null,
+				"num": 2
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 3,
+			"to": "player",
+			"condition": {
+				"buff": null,
+				"debuff": null,
+				"num": 3
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 0,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "1073",
+					"personal_buff_user_id": false,
+					"personal_status": "1073",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "6415_13",
+					"personal_buff_user_id": false,
+					"personal_status": "6415_13",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": null,
+				"num": 0
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 1,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "1541",
+					"personal_buff_user_id": false,
+					"personal_status": "1541",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": [{
+					"status": "1463",
+					"is_unusable_harb": false,
+					"personal_debuff_user_id": false,
+					"personal_status": "1463",
+					"personal_debuff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"num": 1
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 2,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "6684_3",
+					"personal_buff_user_id": false,
+					"personal_status": "6684_3",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": null,
+				"num": 2
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 3,
+			"to": "player",
+			"condition": {
+				"buff": null,
+				"debuff": null,
+				"num": 3
+			}
+		}, {
+			"cmd": "wait",
+			"fps": 12
+		}, {
+			"cmd": "special",
+			"kind": "sp_1040614400_1_s2",
+			"name": "サムシング・デセプション",
+			"pos": 0,
+			"target": "boss",
+			"to": 0,
+			"chain": "",
+			"count": 1,
+			"serif": "",
+			"voice": null,
+			"voice_wait": null,
+			"attr": "6",
+			"total": [{
+				"pos": 0,
+				"split": ["8", "8", "6", "5", "5", "8"],
+				"attr": 6,
+				"count": 0
+			}],
+			"list": [{
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 43885,
+					"split": ["4", "3", "8", "8", "5"],
+					"hp": 90952290,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 42555,
+					"split": ["4", "2", "5", "5", "5"],
+					"hp": 90909735,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 88656,
+					"split": ["8", "8", "6", "5", "6"],
+					"hp": 90821079,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 85997,
+					"split": ["8", "5", "9", "9", "7"],
+					"hp": 90735082,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 87770,
+					"split": ["8", "7", "7", "7", "0"],
+					"hp": 90647312,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 139633,
+					"split": ["1", "3", "9", "6", "3", "3"],
+					"hp": 90507679,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 131654,
+					"split": ["1", "3", "1", "6", "5", "4"],
+					"hp": 90376025,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 131654,
+					"split": ["1", "3", "1", "6", "5", "4"],
+					"hp": 90244371,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 134754,
+					"split": ["1", "3", "4", "7", "5", "4"],
+					"hp": 90109617,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}],
+			"skip_label_nsp": "mc_mortal_B_nsp",
+			"skip_frame_nsp": "61",
+			"cutin_image": "370601_me_1_01",
+			"window_effect_mode": "",
+			"return_motion_label": null,
+			"cjs_param": {
+				"voice_change_flag": 0
+			},
+			"full_screen_flag": true,
+			"fixed_pos_owner_bg": false,
+			"setting_id": 1,
+			"skip_flag": true,
+			"skip_label": "|mc_mortal_B_npc",
+			"skip_frame": "61",
+			"force_top_flag": "",
+			"effect_all": "",
+			"is_activate_counter_damaged": false
+		}, {
+			"cmd": "condition",
+			"pos": 0,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "1541"
+				}, {
+					"status": "1073"
+				}, {
+					"status": "6415_13"
+				}]
+			}
+		}, {
+			"cmd": "message",
+			"data": {
+				"player": {
+					"1": [{
+						"pos": 1,
+						"type": "",
+						"text": "",
+						"status": "",
+						"miss": 3
+					}, {
+						"pos": 1,
+						"type": "1",
+						"text": "ブロック",
+						"status": "6083"
+					}],
+					"0": [{
+						"pos": 0,
+						"type": "1",
+						"text": "カウンター(被ダメージ)",
+						"status": "1062"
+					}, {
+						"pos": 0,
+						"type": "1",
+						"text": "ブロック",
+						"status": "6083"
+					}],
+					"2": [{
+						"pos": 2,
+						"type": "1",
+						"text": "カウンター(被ダメージ)",
+						"status": "1062"
+					}, {
+						"pos": 2,
+						"type": "1",
+						"text": "ブロック",
+						"status": "6083"
+					}],
+					"3": [{
+						"pos": 3,
+						"type": "1",
+						"text": "カウンター(被ダメージ)",
+						"status": "1062"
+					}, {
+						"pos": 3,
+						"type": "1",
+						"text": "ブロック",
+						"status": "6083"
+					}]
+				}
+			},
+			"nodamage_ability_nowait": false
+		}, {
+			"cmd": "condition",
+			"pos": 2,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "1541"
+				}, {
+					"status": "6684_3"
+				}]
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 3,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "1541"
+				}]
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 0,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "6083"
+				}, {
+					"status": "1541"
+				}, {
+					"status": "1073"
+				}, {
+					"status": "6415_13"
+				}]
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 1,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "6083"
+				}, {
+					"status": "1541"
+				}],
+				"debuff": [{
+					"status": "1463"
+				}]
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 2,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "6083"
+				}, {
+					"status": "1541"
+				}, {
+					"status": "6684_3"
+				}]
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 3,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "6083"
+				}, {
+					"status": "1541"
+				}]
+			}
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 0,
+			"value": 0,
+			"max": "",
+			"split": ["0"]
+		}, {
+			"cmd": "modechange",
+			"mode": "1",
+			"pos": 0,
+			"gauge": 39,
+			"additional": 0,
+			"ability_or_summon": null,
+			"log_type": 1,
+			"no_motion": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 1,
+			"value": 13,
+			"max": "",
+			"split": ["1", "3"]
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 2,
+			"value": 10,
+			"max": "",
+			"split": ["1", "0"]
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 3,
+			"value": 100,
+			"max": "",
+			"split": ["1", "0", "0"]
+		}, {
+			"cmd": "chain_burst_gauge",
+			"value": 10
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 1,
+			"value": 13,
+			"max": "",
+			"split": ["1", "3"]
+		}, {
+			"cmd": "attack",
+			"from": "player",
+			"pos": 1,
+			"damage": [
+				[{
+					"attack_count": 0,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 195760,
+					"split": ["1", "9", "5", "7", "6", "0"],
+					"hp": 89913857,
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"color": "6",
+					"guard": false,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}],
+				[{
+					"attack_count": 1,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 194301,
+					"split": ["1", "9", "4", "3", "0", "1"],
+					"hp": 89719556,
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"color": "6",
+					"guard": false,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}],
+				[{
+					"attack_count": 2,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 191871,
+					"split": ["1", "9", "1", "8", "7", "1"],
+					"hp": 89527685,
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"color": "6",
+					"guard": false,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}]
+			],
+			"voice": ["voice\/3040278000_attack08_a.mp3", "voice\/3040278000_attack06_a.mp3", "voice\/3040278000_attack06_a.mp3"],
+			"color": "6",
+			"single_motion_flag": false,
+			"concurrent_attack_flag": false,
+			"standby": true,
+			"companion_weapon_flag": false,
+			"is_all_attack": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 1,
+			"value": 50,
+			"max": "",
+			"split": ["5", "0"]
+		}, {
+			"cmd": "modechange",
+			"mode": "1",
+			"pos": 0,
+			"gauge": 42,
+			"additional": 0,
+			"ability_or_summon": null,
+			"log_type": 1,
+			"no_motion": false
+		}, {
+			"cmd": "chain_burst_gauge",
+			"value": 10
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 2,
+			"value": 10,
+			"max": "",
+			"split": ["1", "0"]
+		}, {
+			"cmd": "attack",
+			"from": "player",
+			"pos": 2,
+			"damage": [
+				[{
+					"attack_count": 0,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 304644,
+					"split": ["3", "0", "4", "6", "4", "4"],
+					"hp": 89223041,
+					"size": "l",
+					"critical": true,
+					"miss": 0,
+					"color": "6",
+					"guard": false,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}],
+				[{
+					"attack_count": 1,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 295256,
+					"split": ["2", "9", "5", "2", "5", "6"],
+					"hp": 88927785,
+					"size": "l",
+					"critical": true,
+					"miss": 0,
+					"color": "6",
+					"guard": false,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}],
+				[{
+					"attack_count": 2,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 297134,
+					"split": ["2", "9", "7", "1", "3", "4"],
+					"hp": 88630651,
+					"size": "l",
+					"critical": true,
+					"miss": 0,
+					"color": "6",
+					"guard": false,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}]
+			],
+			"voice": ["voice\/3040035000_v_246.mp3", "voice\/3040035000_v_246.mp3", "voice\/3040035000_v_246.mp3"],
+			"color": "6",
+			"single_motion_flag": false,
+			"concurrent_attack_flag": false,
+			"standby": true,
+			"companion_weapon_flag": false,
+			"is_all_attack": false
+		}, {
+			"cmd": "ability",
+			"pos": 2,
+			"kind": "",
+			"name": "通常攻撃追加効果",
+			"to": "player",
+			"motion": "on",
+			"summon": 0,
+			"serif": "",
+			"voice": null,
+			"comment": "通攻追加累積(防御DOWN) 上昇量5% MAX10%",
+			"show_ability_name": "",
+			"ability_effect_type": "",
+			"motion_label": "",
+			"force_motion": false,
+			"no_effect": false,
+			"ability_wait": false,
+			"nodamage_ability_nowait": false
+		}, {
+			"cmd": "effect",
+			"to": "boss",
+			"kind": "ab_1110",
+			"mode": "serial",
+			"name": "",
+			"list": [0]
+		}, {
+			"cmd": "condition",
+			"pos": 0,
+			"to": "boss",
+			"condition": {
+				"buff": [],
+				"debuff": [{
+					"status": "1427"
+				}]
+			}
+		}, {
+			"cmd": "message",
+			"data": {
+				"boss": [
+					[{
+						"pos": 0,
+						"type": "2",
+						"text": "防御DOWN(累積)",
+						"status": "1427"
+					}]
+				]
+			},
+			"nodamage_ability_nowait": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 2,
+			"value": 47,
+			"max": "",
+			"split": ["4", "7"]
+		}, {
+			"cmd": "modechange",
+			"mode": "1",
+			"pos": 0,
+			"gauge": 45,
+			"additional": 0,
+			"ability_or_summon": null,
+			"log_type": 1,
+			"no_motion": false
+		}, {
+			"cmd": "chain_burst_gauge",
+			"value": 10
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 3,
+			"value": "100",
+			"max": "",
+			"split": ["1", "0", "0"]
+		}, {
+			"cmd": "special_npc",
+			"kind": "nsp_3040092000_02",
+			"name": "ガンマ・レイ＋",
+			"pos": 3,
+			"target": "boss",
+			"to": 0,
+			"chain": "",
+			"count": 2,
+			"serif": "",
+			"voice": "voice\/3040092000_v_004.mp3",
+			"voice_wait": null,
+			"attr": "6",
+			"total": [{
+				"pos": 0,
+				"split": ["1", "2", "8", "0", "1", "9", "8"],
+				"attr": 6,
+				"count": 0
+			}],
+			"list": [{
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 202699,
+					"split": ["2", "0", "2", "6", "9", "9"],
+					"hp": 88427952,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 211233,
+					"split": ["2", "1", "1", "2", "3", "3"],
+					"hp": 88216719,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 213367,
+					"split": ["2", "1", "3", "3", "6", "7"],
+					"hp": 88003352,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 221901,
+					"split": ["2", "2", "1", "9", "0", "1"],
+					"hp": 87781451,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 219768,
+					"split": ["2", "1", "9", "7", "6", "8"],
+					"hp": 87561683,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "6",
+					"pos": 0,
+					"value": 211230,
+					"split": ["2", "1", "1", "2", "3", "0"],
+					"hp": 87350453,
+					"effect": "",
+					"size": "l",
+					"critical": false,
+					"miss": 0,
+					"guard": false
+				}]
+			}],
+			"skip_label_nsp": "",
+			"skip_frame_nsp": "92",
+			"cutin_image": "3040092000_91",
+			"window_effect_mode": "",
+			"return_motion_label": "",
+			"cjs_param": {
+				"voice_change_flag": 0
+			},
+			"full_screen_flag": false,
+			"fixed_pos_owner_bg": false,
+			"setting_id": "3040092000",
+			"skip_flag": true,
+			"skip_label": "",
+			"skip_frame": "92",
+			"force_top_flag": "",
+			"effect_all": "",
+			"is_activate_counter_damaged": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 3,
+			"value": 0,
+			"max": "",
+			"split": ["0"]
+		}, {
+			"cmd": "modechange",
+			"mode": "1",
+			"pos": 0,
+			"gauge": 50,
+			"additional": 0,
+			"ability_or_summon": null,
+			"log_type": 1,
+			"no_motion": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 1,
+			"value": 60,
+			"max": "",
+			"split": ["6", "0"]
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 2,
+			"value": 57,
+			"max": "",
+			"split": ["5", "7"]
+		}, {
+			"cmd": "chain_burst_gauge",
+			"value": 20
+		}, {
+			"cmd": "chain_cutin",
+			"images": ["\/sp\/assets\/leader\/raid_chain\/370601_me_1_01.jpg", "\/sp\/assets\/npc\/raid_chain\/3040092000_91.jpg"],
+			"chain_num": 2,
+			"global": {
+				"is_pair_chain": false
+			}
+		}, {
+			"cmd": "effect",
+			"to": "boss_fullscreen",
+			"kind": "burst_611",
+			"mode": "parallel",
+			"name": "カオスデトネーション",
+			"list": []
+		}, {
+			"cmd": "damage",
+			"color": "6",
+			"to": "boss",
+			"effect": "",
+			"mode": "parallel",
+			"is_rengeki": "",
+			"list": [{
+				"pos": 0,
+				"value": 1289504,
+				"split": ["1", "2", "8", "9", "5", "0", "4"],
+				"hp": 86060949,
+				"size": "l",
+				"miss": 0
+			}, {
+				"pos": 1,
+				"value": 1289504,
+				"split": ["1", "2", "8", "9", "5", "0", "4"],
+				"hp": 5718750,
+				"size": "l",
+				"miss": 0
+			}, {
+				"pos": 2,
+				"value": 1289504,
+				"split": ["1", "2", "8", "9", "5", "0", "4"],
+				"hp": 32218750,
+				"size": "l",
+				"miss": 0
+			}],
+			"wait": ""
+		}, {
+			"cmd": "modechange",
+			"mode": "1",
+			"pos": 0,
+			"gauge": 55,
+			"additional": 0,
+			"ability_or_summon": null,
+			"log_type": 1,
+			"no_motion": false
+		}, {
+			"cmd": "modechange",
+			"mode": "1",
+			"pos": 2,
+			"gauge": 25,
+			"additional": 0,
+			"ability_or_summon": null,
+			"log_type": 1,
+			"no_motion": false
+		}, {
+			"cmd": "wait",
+			"fps": 12
+		}, {
+			"cmd": "wait",
+			"fps": 12
+		}, {
+			"cmd": "turn",
+			"mode": "boss"
+		}, {
+			"cmd": "bgm",
+			"value": "bgm\/36_chevalier_03.mp3",
+			"fix_bgm": false
+		}, {
+			"cmd": "boss_gauge",
+			"pos": 0,
+			"name": {
+				"ja": "Lv100 シュヴァリエ・マグナ",
+				"en": "Lvl 100 Luminiera Omega"
+			},
+			"attr": 5,
+			"hp": 86060949,
+			"hpmax": 100000000,
+			"recast": 1,
+			"recastmax": 4,
+			"no_attribute_flag": false
+		}, {
+			"cmd": "formchange",
+			"form": 1,
+			"param": {
+				"attr": 5,
+				"name": {
+					"ja": "Lv100 シュヴァリエ・マグナ",
+					"en": "Lvl 100 Luminiera Omega"
+				},
+				"effect": "ehit_8101133",
+				"cjs": "enemy_8101133",
+				"extra_attr": 0,
+				"type": null,
+				"motion_conf": null
+			},
+			"pos": 0,
+			"to": "boss",
+			"type": null,
+			"no_motion": null,
+			"no_change_motion": null,
+			"bg_image": "\/sp\/raid\/bg\/common_019.jpg",
+			"fullscreen": "",
+			"runaway_motion_flg": "",
+			"fatigue_motion_flg": "",
+			"effect_all": "",
+			"is_large_dead": false
+		}, {
+			"cmd": "boss_gauge",
+			"pos": 1,
+			"name": {
+				"ja": "Lv100 プライマルビット",
+				"en": "Lvl 100 Primal Bit"
+			},
+			"attr": 5,
+			"hp": 5718750,
+			"hpmax": 8500000,
+			"recast": 3,
+			"recastmax": 3,
+			"no_attribute_flag": false
+		}, {
+			"cmd": "formchange",
+			"form": 1,
+			"param": {
+				"attr": 5,
+				"name": {
+					"ja": "Lv100 プライマルビット",
+					"en": "Lvl 100 Primal Bit"
+				},
+				"effect": "ehit_8100333",
+				"cjs": "enemy_8101143",
+				"extra_attr": 0,
+				"type": null,
+				"motion_conf": null
+			},
+			"pos": 1,
+			"to": "boss",
+			"type": null,
+			"no_motion": null,
+			"no_change_motion": null,
+			"bg_image": "\/sp\/raid\/bg\/common_019.jpg",
+			"fullscreen": "",
+			"runaway_motion_flg": "",
+			"fatigue_motion_flg": "",
+			"effect_all": "",
+			"is_large_dead": false
+		}, {
+			"cmd": "boss_gauge",
+			"pos": 2,
+			"name": {
+				"ja": "Lv100 プライマルビット",
+				"en": "Lvl 100 Primal Bit"
+			},
+			"attr": 5,
+			"hp": 32218750,
+			"hpmax": 35000000,
+			"recast": 3,
+			"recastmax": 3,
+			"no_attribute_flag": false
+		}, {
+			"cmd": "formchange",
+			"form": 1,
+			"param": {
+				"attr": 5,
+				"name": {
+					"ja": "Lv100 プライマルビット",
+					"en": "Lvl 100 Primal Bit"
+				},
+				"effect": "ehit_8101153",
+				"cjs": "enemy_8101153",
+				"extra_attr": 0,
+				"type": null,
+				"motion_conf": null
+			},
+			"pos": 2,
+			"to": "boss",
+			"type": null,
+			"no_motion": null,
+			"no_change_motion": null,
+			"bg_image": "\/sp\/raid\/bg\/common_019.jpg",
+			"fullscreen": "",
+			"runaway_motion_flg": "",
+			"fatigue_motion_flg": "",
+			"effect_all": "",
+			"is_large_dead": false
+		}, {
+			"cmd": "super",
+			"kind": "esp_8101133_03",
+			"name": "光の剣",
+			"pos": 0,
+			"target": "player",
+			"to": 2,
+			"chain": "",
+			"count": 1,
+			"serif": "",
+			"voice": null,
+			"voice_wait": null,
+			"attr": "5",
+			"total": [],
+			"list": [{
+				"damage": [{
+					"attr": "5",
+					"pos": 2,
+					"value": 193,
+					"split": ["1", "9", "3"],
+					"hp": 28181,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 1,
+					"value": 351,
+					"split": ["3", "5", "1"],
+					"hp": 23345,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 1,
+					"value": 0,
+					"split": ["0"],
+					"hp": 23345,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 4,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 2,
+					"value": 189,
+					"split": ["1", "8", "9"],
+					"hp": 27992,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 1,
+					"value": 371,
+					"split": ["3", "7", "1"],
+					"hp": 22974,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 1,
+					"value": 0,
+					"split": ["0"],
+					"hp": 22974,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 4,
+					"guard": false
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 1,
+					"value": 367,
+					"split": ["3", "6", "7"],
+					"hp": 22607,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 0,
+					"value": 167,
+					"split": ["1", "6", "7"],
+					"hp": 26642,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 2,
+					"value": 185,
+					"split": ["1", "8", "5"],
+					"hp": 27807,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 1,
+					"value": 373,
+					"split": ["3", "7", "3"],
+					"hp": 22234,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 1,
+					"value": 373,
+					"split": ["3", "7", "3"],
+					"hp": 21861,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 3,
+					"value": 169,
+					"split": ["1", "6", "9"],
+					"hp": 20418,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 1,
+					"value": 386,
+					"split": ["3", "8", "6"],
+					"hp": 21475,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 1,
+					"value": 363,
+					"split": ["3", "6", "3"],
+					"hp": 21112,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 3,
+					"value": 172,
+					"split": ["1", "7", "2"],
+					"hp": 20246,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 0,
+					"value": 167,
+					"split": ["1", "6", "7"],
+					"hp": 26475,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 1,
+					"value": 373,
+					"split": ["3", "7", "3"],
+					"hp": 20739,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 1,
+					"value": 352,
+					"split": ["3", "5", "2"],
+					"hp": 20387,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 1,
+					"value": 357,
+					"split": ["3", "5", "7"],
+					"hp": 20030,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}, {
+				"damage": [{
+					"attr": "5",
+					"pos": 0,
+					"value": 160,
+					"split": ["1", "6", "0"],
+					"hp": 26315,
+					"effect": "",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": true
+				}]
+			}],
+			"skip_label_nsp": "",
+			"skip_frame_nsp": "",
+			"cutin_image": null,
+			"window_effect_mode": "",
+			"return_motion_label": null,
+			"cjs_param": {
+				"voice_change_flag": 0
+			},
+			"full_screen_flag": false,
+			"fixed_pos_owner_bg": false,
+			"setting_id": 2,
+			"skip_flag": false,
+			"skip_label": "",
+			"skip_frame": "",
+			"force_top_flag": "",
+			"effect_all": "",
+			"is_activate_counter_damaged": true
+		}, {
+			"cmd": "windoweffect",
+			"to": "player",
+			"kind": "raid_effect_debuff_e",
+			"name": "",
+			"list": ""
+		}, {
+			"cmd": "condition",
+			"pos": 0,
+			"to": "player",
+			"condition": {
+				"debuff": [{
+					"status": "1007"
+				}],
+				"buff": [{
+					"status": "6083"
+				}, {
+					"status": "1073"
+				}, {
+					"status": "6415_13"
+				}]
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 3,
+			"to": "player",
+			"condition": {
+				"debuff": [{
+					"status": "1007"
+				}],
+				"buff": [{
+					"status": "1541"
+				}, {
+					"status": "6083"
+				}]
+			}
+		}, {
+			"cmd": "message",
+			"data": {
+				"player": [
+					[{
+						"pos": 0,
+						"type": "2",
+						"text": "奥義封印",
+						"status": "1007"
+					}],
+					[{
+						"pos": 1,
+						"type": "",
+						"text": "",
+						"status": "",
+						"miss": 1
+					}],
+					[{
+						"pos": 2,
+						"type": "",
+						"text": "",
+						"status": "",
+						"miss": 1
+					}],
+					[{
+						"pos": 3,
+						"type": "2",
+						"text": "奥義封印",
+						"status": "1007"
+					}]
+				]
+			},
+			"nodamage_ability_nowait": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 0,
+			"value": 3,
+			"max": "",
+			"split": ["3"]
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 1,
+			"value": 70,
+			"max": "",
+			"split": ["7", "0"]
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 2,
+			"value": 60,
+			"max": "",
+			"split": ["6", "0"]
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 3,
+			"value": 2,
+			"max": "",
+			"split": ["2"]
+		}, {
+			"cmd": "recast",
+			"to": "boss",
+			"pos": 0,
+			"value": 4,
+			"max": 4,
+			"split": ["4"]
+		}, {
+			"cmd": "attack",
+			"from": "player",
+			"pos": 0,
+			"damage": [
+				[{
+					"attack_count": 0,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 242658,
+					"split": ["2", "4", "2", "6", "5", "8"],
+					"hp": 85818291,
+					"size": "l",
+					"miss": 0,
+					"critical": false,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}]
+			],
+			"voice": null,
+			"color": "6",
+			"single_motion_flag": false,
+			"concurrent_attack_flag": false,
+			"standby": false,
+			"companion_weapon_flag": false,
+			"motion": "attack",
+			"is_all_attack": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 0,
+			"value": 8,
+			"max": "",
+			"split": ["8"]
+		}, {
+			"cmd": "attack",
+			"from": "player",
+			"pos": 0,
+			"damage": [
+				[{
+					"attack_count": 0,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 246031,
+					"split": ["2", "4", "6", "0", "3", "1"],
+					"hp": 85572260,
+					"size": "l",
+					"miss": 0,
+					"critical": false,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}]
+			],
+			"voice": null,
+			"color": "6",
+			"single_motion_flag": false,
+			"concurrent_attack_flag": false,
+			"standby": false,
+			"companion_weapon_flag": false,
+			"motion": "double",
+			"is_all_attack": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 0,
+			"value": 13,
+			"max": "",
+			"split": ["1", "3"]
+		}, {
+			"cmd": "attack",
+			"from": "player",
+			"pos": 0,
+			"damage": [
+				[{
+					"attack_count": 0,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 240971,
+					"split": ["2", "4", "0", "9", "7", "1"],
+					"hp": 85331289,
+					"size": "l",
+					"miss": 0,
+					"critical": false,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}]
+			],
+			"voice": null,
+			"color": "6",
+			"single_motion_flag": false,
+			"concurrent_attack_flag": false,
+			"standby": true,
+			"companion_weapon_flag": false,
+			"motion": "triple",
+			"is_all_attack": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 0,
+			"value": 18,
+			"max": "",
+			"split": ["1", "8"]
+		}, {
+			"cmd": "attack",
+			"from": "player",
+			"pos": 2,
+			"damage": [
+				[{
+					"attack_count": 0,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 571356,
+					"split": ["5", "7", "1", "3", "5", "6"],
+					"hp": 84759933,
+					"size": "l",
+					"miss": 0,
+					"critical": true,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}]
+			],
+			"voice": null,
+			"color": "6",
+			"single_motion_flag": false,
+			"concurrent_attack_flag": false,
+			"standby": false,
+			"companion_weapon_flag": false,
+			"motion": "short_attack",
+			"is_all_attack": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 2,
+			"value": 65,
+			"max": "",
+			"split": ["6", "5"]
+		}, {
+			"cmd": "attack",
+			"from": "player",
+			"pos": 2,
+			"damage": [
+				[{
+					"attack_count": 0,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 569545,
+					"split": ["5", "6", "9", "5", "4", "5"],
+					"hp": 84190388,
+					"size": "l",
+					"miss": 0,
+					"critical": true,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}]
+			],
+			"voice": null,
+			"color": "6",
+			"single_motion_flag": false,
+			"concurrent_attack_flag": false,
+			"standby": false,
+			"companion_weapon_flag": false,
+			"motion": "double",
+			"is_all_attack": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 2,
+			"value": 70,
+			"max": "",
+			"split": ["7", "0"]
+		}, {
+			"cmd": "attack",
+			"from": "player",
+			"pos": 2,
+			"damage": [
+				[{
+					"attack_count": 0,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 581775,
+					"split": ["5", "8", "1", "7", "7", "5"],
+					"hp": 83608613,
+					"size": "l",
+					"miss": 0,
+					"critical": true,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}]
+			],
+			"voice": null,
+			"color": "6",
+			"single_motion_flag": false,
+			"concurrent_attack_flag": false,
+			"standby": true,
+			"companion_weapon_flag": false,
+			"motion": "triple",
+			"is_all_attack": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 2,
+			"value": 75,
+			"max": "",
+			"split": ["7", "5"]
+		}, {
+			"cmd": "attack",
+			"from": "player",
+			"pos": 3,
+			"damage": [
+				[{
+					"attack_count": 0,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 262311,
+					"split": ["2", "6", "2", "3", "1", "1"],
+					"hp": 83346302,
+					"size": "l",
+					"miss": 0,
+					"critical": false,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}]
+			],
+			"voice": null,
+			"color": "6",
+			"single_motion_flag": false,
+			"concurrent_attack_flag": false,
+			"standby": false,
+			"companion_weapon_flag": false,
+			"motion": "short_attack",
+			"is_all_attack": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 3,
+			"value": 7,
+			"max": "",
+			"split": ["7"]
+		}, {
+			"cmd": "attack",
+			"from": "player",
+			"pos": 3,
+			"damage": [
+				[{
+					"attack_count": 0,
+					"concurrent_attack_count": 0,
+					"pos": 0,
+					"value": 279890,
+					"split": ["2", "7", "9", "8", "9", "0"],
+					"hp": 83066412,
+					"size": "l",
+					"miss": 0,
+					"critical": false,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}]
+			],
+			"voice": null,
+			"color": "6",
+			"single_motion_flag": false,
+			"concurrent_attack_flag": false,
+			"standby": true,
+			"companion_weapon_flag": false,
+			"motion": "double",
+			"is_all_attack": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 3,
+			"value": 12,
+			"max": "",
+			"split": ["1", "2"]
+		}, {
+			"cmd": "modechange",
+			"mode": "1",
+			"pos": 2,
+			"gauge": 25,
+			"additional": 1,
+			"ability_or_summon": true,
+			"log_type": 1,
+			"no_motion": false
+		}, {
+			"cmd": "wait",
+			"fps": 3
+		}, {
+			"cmd": "ability",
+			"pos": 2,
+			"kind": "",
+			"name": "反撃の狼煙",
+			"to": "player",
+			"motion": "on",
+			"summon": 0,
+			"serif": "",
+			"voice": "voice\/3040035000_03_ability_them3.mp3",
+			"comment": "敵が特殊技を使用時、敵に闇属性6回ダメージ",
+			"show_ability_name": true,
+			"ability_effect_type": "",
+			"motion_label": "",
+			"force_motion": false,
+			"no_effect": false,
+			"ability_wait": false,
+			"nodamage_ability_nowait": true
+		}, {
+			"cmd": "loop_damage",
+			"color": "6",
+			"to": "boss",
+			"effect": "ab_3040080000_03",
+			"mode": "parallel",
+			"is_rengeki": 0,
+			"wait": "3",
+			"list": [
+				[{
+					"pos": 0,
+					"value": 215014,
+					"split": ["2", "1", "5", "0", "1", "4"],
+					"hp": 82851398,
+					"color": "6",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": false,
+					"no_damage_motion": false
+				}, {
+					"pos": 0,
+					"value": 215254,
+					"split": ["2", "1", "5", "2", "5", "4"],
+					"hp": 82636144,
+					"color": "6",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": false,
+					"no_damage_motion": false
+				}, {
+					"pos": 0,
+					"value": 215223,
+					"split": ["2", "1", "5", "2", "2", "3"],
+					"hp": 82420921,
+					"color": "6",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": false,
+					"no_damage_motion": false
+				}, {
+					"pos": 0,
+					"value": 215304,
+					"split": ["2", "1", "5", "3", "0", "4"],
+					"hp": 82205617,
+					"color": "6",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": false,
+					"no_damage_motion": false
+				}, {
+					"pos": 0,
+					"value": 215182,
+					"split": ["2", "1", "5", "1", "8", "2"],
+					"hp": 81990435,
+					"color": "6",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": false,
+					"no_damage_motion": false
+				}, {
+					"pos": 0,
+					"value": 214874,
+					"split": ["2", "1", "4", "8", "7", "4"],
+					"hp": 81775561,
+					"color": "6",
+					"size": "s",
+					"critical": false,
+					"miss": 0,
+					"guard": false,
+					"no_damage_motion": false
+				}]
+			],
+			"total": [{
+				"pos": 2,
+				"split": ["1", "2", "9", "0", "8", "5", "1"],
+				"attr": 6,
+				"count": 0
+			}]
+		}, {
+			"cmd": "recast",
+			"to": "boss",
+			"pos": 1,
+			"value": 2,
+			"max": "3",
+			"split": ["2"]
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 1,
+			"value": 70,
+			"max": "",
+			"split": ["7", "0"]
+		}, {
+			"cmd": "attack",
+			"from": "boss",
+			"pos": 2,
+			"damage": {
+				"1": [{
+					"attack_count": 1,
+					"concurrent_attack_count": 0,
+					"pos": 1,
+					"value": 0,
+					"attr": "5",
+					"split": ["0"],
+					"hp": 20030,
+					"size": "s",
+					"critical": false,
+					"miss": 1,
+					"guard": true,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}]
+			},
+			"voice": [null],
+			"color": null,
+			"single_motion_flag": false,
+			"concurrent_attack_flag": false,
+			"standby": false,
+			"companion_weapon_flag": false,
+			"is_all_attack": false
+		}, {
+			"cmd": "recast",
+			"to": "boss",
+			"pos": 2,
+			"value": 2,
+			"max": "3",
+			"split": ["2"]
+		}, {
+			"cmd": "attack",
+			"from": "player",
+			"pos": 1,
+			"damage": [
+				[{
+					"attack_count": 0,
+					"concurrent_attack_count": 0,
+					"pos": 2,
+					"value": 301705,
+					"split": ["3", "0", "1", "7", "0", "5"],
+					"hp": 31917045,
+					"size": "l",
+					"miss": 0,
+					"critical": false,
+					"additional": [{
+						"message": null,
+						"effect": null
+					}]
+				}]
+			],
+			"voice": null,
+			"color": "6",
+			"single_motion_flag": false,
+			"concurrent_attack_flag": false,
+			"standby": true,
+			"companion_weapon_flag": false,
+			"motion": "attack",
+			"is_all_attack": false
+		}, {
+			"cmd": "recast",
+			"to": "player",
+			"pos": 1,
+			"value": 75,
+			"max": "",
+			"split": ["7", "5"]
+		}, {
+			"cmd": "modechange",
+			"mode": "1",
+			"pos": 2,
+			"gauge": 28,
+			"additional": 1,
+			"ability_or_summon": true,
+			"log_type": 1,
+			"no_motion": false
+		}, {
+			"cmd": "ability",
+			"pos": 2,
+			"kind": "",
+			"name": "神狼",
+			"to": "player",
+			"motion": "on",
+			"summon": 0,
+			"serif": "",
+			"voice": null,
+			"comment": "<div class=prt-text-small>必ず連続攻撃\/神狼Lvに応じて攻撃UP\/ダメージ上限UP\/トリプルアタック確率UP　<span class=text-blue>◆神狼Lvは毎ターン1上昇し、被ダメージで2減少(最大6)<\/span><\/div>",
+			"show_ability_name": false,
+			"ability_effect_type": "",
+			"motion_label": "",
+			"force_motion": false,
+			"no_effect": false,
+			"ability_wait": false,
+			"nodamage_ability_nowait": false
+		}, {
+			"cmd": "message",
+			"data": {
+				"player": {
+					"2": [{
+						"pos": 2,
+						"type": 1,
+						"text": "神狼",
+						"status": "6684_1"
+					}]
+				}
+			},
+			"nodamage_ability_nowait": false
+		},
+		[], {
+			"cmd": "wait",
+			"fps": 12
+		}, {
+			"cmd": "ability",
+			"pos": 2,
+			"kind": "",
+			"name": "神狼",
+			"to": "player",
+			"motion": "on",
+			"summon": 0,
+			"serif": "",
+			"voice": null,
+			"comment": "<div class=prt-text-small>必ず連続攻撃\/神狼Lvに応じて攻撃UP\/ダメージ上限UP\/トリプルアタック確率UP　<span class=text-blue>◆神狼Lvは毎ターン1上昇し、被ダメージで2減少(最大6)<\/span><\/div>",
+			"show_ability_name": false,
+			"ability_effect_type": "",
+			"motion_label": "",
+			"force_motion": false,
+			"no_effect": false,
+			"ability_wait": false,
+			"nodamage_ability_nowait": false
+		}, {
+			"cmd": "message",
+			"data": {
+				"player": {
+					"2": [{
+						"pos": 2,
+						"type": 1,
+						"text": "神狼",
+						"status": "6684_2"
+					}]
+				}
+			},
+			"nodamage_ability_nowait": false
+		},
+		[], {
+			"cmd": "modechange",
+			"mode": "1",
+			"pos": 0,
+			"gauge": 61,
+			"additional": 1,
+			"ability_or_summon": true,
+			"log_type": 1,
+			"no_motion": false
+		}, {
+			"cmd": "modechange",
+			"mode": "1",
+			"pos": 2,
+			"gauge": 28,
+			"additional": 1,
+			"ability_or_summon": true,
+			"log_type": 1,
+			"no_motion": false
+		}, {
+			"cmd": "special_change",
+			"pos": 0,
+			"name": "サムシング・デセプション",
+			"text": "闇属性ダメージ(特大)\/闇属性キャラにカウンター効果(被ダメージ\/3回)\/ブロック効果"
+		}, {
+			"cmd": "boss_gauge",
+			"pos": 0,
+			"name": {
+				"ja": "Lv100 シュヴァリエ・マグナ",
+				"en": "Lvl 100 Luminiera Omega"
+			},
+			"attr": 5,
+			"hp": 81775561,
+			"hpmax": 100000000,
+			"recast": 4,
+			"recastmax": 4,
+			"no_attribute_flag": false
+		}, {
+			"cmd": "formchange",
+			"form": 1,
+			"param": {
+				"attr": 5,
+				"name": {
+					"ja": "Lv100 シュヴァリエ・マグナ",
+					"en": "Lvl 100 Luminiera Omega"
+				},
+				"effect": "ehit_8101133",
+				"cjs": "enemy_8101133",
+				"extra_attr": 0,
+				"type": null,
+				"motion_conf": null
+			},
+			"pos": 0,
+			"to": "boss",
+			"type": null,
+			"no_motion": null,
+			"no_change_motion": null,
+			"bg_image": "\/sp\/raid\/bg\/common_019.jpg",
+			"fullscreen": "",
+			"runaway_motion_flg": "",
+			"fatigue_motion_flg": "",
+			"effect_all": "",
+			"is_large_dead": false
+		}, {
+			"cmd": "boss_gauge",
+			"pos": 1,
+			"name": {
+				"ja": "Lv100 プライマルビット",
+				"en": "Lvl 100 Primal Bit"
+			},
+			"attr": 5,
+			"hp": 5718750,
+			"hpmax": 8500000,
+			"recast": 2,
+			"recastmax": 3,
+			"no_attribute_flag": false
+		}, {
+			"cmd": "formchange",
+			"form": 1,
+			"param": {
+				"attr": 5,
+				"name": {
+					"ja": "Lv100 プライマルビット",
+					"en": "Lvl 100 Primal Bit"
+				},
+				"effect": "ehit_8100333",
+				"cjs": "enemy_8101143",
+				"extra_attr": 0,
+				"type": null,
+				"motion_conf": null
+			},
+			"pos": 1,
+			"to": "boss",
+			"type": null,
+			"no_motion": null,
+			"no_change_motion": null,
+			"bg_image": "\/sp\/raid\/bg\/common_019.jpg",
+			"fullscreen": "",
+			"runaway_motion_flg": "",
+			"fatigue_motion_flg": "",
+			"effect_all": "",
+			"is_large_dead": false
+		}, {
+			"cmd": "boss_gauge",
+			"pos": 2,
+			"name": {
+				"ja": "Lv100 プライマルビット",
+				"en": "Lvl 100 Primal Bit"
+			},
+			"attr": 5,
+			"hp": 31917045,
+			"hpmax": 35000000,
+			"recast": 2,
+			"recastmax": 3,
+			"no_attribute_flag": false
+		}, {
+			"cmd": "formchange",
+			"form": 1,
+			"param": {
+				"attr": 5,
+				"name": {
+					"ja": "Lv100 プライマルビット",
+					"en": "Lvl 100 Primal Bit"
+				},
+				"effect": "ehit_8101153",
+				"cjs": "enemy_8101153",
+				"extra_attr": 0,
+				"type": null,
+				"motion_conf": null
+			},
+			"pos": 2,
+			"to": "boss",
+			"type": null,
+			"no_motion": null,
+			"no_change_motion": null,
+			"bg_image": "\/sp\/raid\/bg\/common_019.jpg",
+			"fullscreen": "",
+			"runaway_motion_flg": "",
+			"fatigue_motion_flg": "",
+			"effect_all": "",
+			"is_large_dead": false
+		}, {
+			"cmd": "condition",
+			"pos": 0,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "6083",
+					"personal_buff_user_id": false,
+					"personal_status": "6083",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "1073",
+					"personal_buff_user_id": false,
+					"personal_status": "1073",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "6415_13",
+					"personal_buff_user_id": false,
+					"personal_status": "6415_13",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": [{
+					"status": "1007",
+					"is_unusable_harb": false,
+					"personal_debuff_user_id": false,
+					"personal_status": "1007",
+					"personal_debuff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"num": 0,
+				"seal_flag": 1
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 1,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "6083",
+					"personal_buff_user_id": false,
+					"personal_status": "6083",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": [{
+					"status": "1463",
+					"is_unusable_harb": false,
+					"personal_debuff_user_id": false,
+					"personal_status": "1463",
+					"personal_debuff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"num": 1
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 2,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "6083",
+					"personal_buff_user_id": false,
+					"personal_status": "6083",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "6684_2",
+					"personal_buff_user_id": false,
+					"personal_status": "6684_2",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": null,
+				"num": 2
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 3,
+			"to": "player",
+			"condition": {
+				"buff": [{
+					"status": "1541",
+					"personal_buff_user_id": false,
+					"personal_status": "1541",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}, {
+					"status": "6083",
+					"personal_buff_user_id": false,
+					"personal_status": "6083",
+					"personal_buff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"debuff": [{
+					"status": "1007",
+					"is_unusable_harb": false,
+					"personal_debuff_user_id": false,
+					"personal_status": "1007",
+					"personal_debuff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"num": 3,
+				"seal_flag": 1
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 0,
+			"to": "boss",
+			"condition": {
+				"buff": null,
+				"debuff": [{
+					"status": "1427",
+					"is_unusable_harb": false,
+					"personal_debuff_user_id": false,
+					"personal_status": "1427",
+					"personal_debuff_end_turn": false,
+					"icon_add_turn_flag": ""
+				}],
+				"num": 1
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 1,
+			"to": "boss",
+			"condition": {
+				"buff": null,
+				"debuff": null,
+				"num": 2
+			}
+		}, {
+			"cmd": "condition",
+			"pos": 2,
+			"to": "boss",
+			"condition": {
+				"buff": null,
+				"debuff": null,
+				"num": 3
+			}
+		}, {
+			"cmd": "condition",
+			"pos": null,
+			"to": "field_effect",
+			"condition": []
+		}, {
+			"cmd": "condition",
+			"pos": null,
+			"to": "effect_unit",
+			"condition": []
+		}
+	],
+	"status": {
+		"supporter": {
+			"recast": "0"
+		},
+		"summon": {
+			"recast": ["0", "0", "0", "0", "0"]
+		},
+		"summon_enable": 1,
+		"balloon": {
+			"boss": [{
+				"pos": 0,
+				"serif": "",
+				"voice": null
+			}, {
+				"pos": 1,
+				"serif": "",
+				"voice": null
+			}, {
+				"pos": 2,
+				"serif": "",
+				"voice": null
+			}]
+		},
+		"fellow": 1,
+		"timer": 5266,
+		"turn": 5,
+		"ability_turn": 0,
+		"treasure": {
+			"treasure_type_1": 0,
+			"treasure_type_2": 0,
+			"treasure_type_3": 0,
+			"treasure_type_4": 0,
+			"treasure_type_5": 0,
+			"treasure_type_11": 0,
+			"treasure_type_13": 0
+		},
+		"lupi": 0,
+		"bossmode": [{
+			"modechange": "1",
+			"modegauge": 36,
+			"log_type": 1
+		}, {
+			"modechange": 1,
+			"modegauge": 0,
+			"log_type": 1
+		}, {
+			"modechange": "1",
+			"modegauge": 14,
+			"log_type": 1
+		}],
+		"voice": {
+			"special_skill_gauge_voice": null,
+			"dying_voice": null,
+			"enemy_debuff_voice": "voice\/3040092000_lose1b.mp3",
+			"turnend_voice": null
+		},
+		"is_escorted_character_dead": 0,
+		"skip_special_motion_setting": [{
+			"pos": 0,
+			"setting_id": 1,
+			"skip_flag": true
+		}, {
+			"pos": 1,
+			"setting_id": "3040278000",
+			"skip_flag": true
+		}, {
+			"pos": 2,
+			"setting_id": "3040035000",
+			"skip_flag": true
+		}, {
+			"pos": 3,
+			"setting_id": "3040092000",
+			"skip_flag": true
+		}, {
+			"pos": 4,
+			"setting_id": "3040222000",
+			"skip_flag": true
+		}, {
+			"pos": 5,
+			"setting_id": "3040169000",
+			"skip_flag": true
+		}],
+		"special_skill_activate": [{
+			"pos": 0,
+			"special_skill_activate_flag": false
+		}, {
+			"pos": 1,
+			"special_skill_activate_flag": true
+		}, {
+			"pos": 2,
+			"special_skill_activate_flag": true
+		}, {
+			"pos": 3,
+			"special_skill_activate_flag": false
+		}],
+		"is_guard_status": [{
+			"pos": 0,
+			"is_guard_status": 0,
+			"is_guard_unavailable": 0
+		}, {
+			"pos": 1,
+			"is_guard_status": 0,
+			"is_guard_unavailable": 0
+		}, {
+			"pos": 2,
+			"is_guard_status": 0,
+			"is_guard_unavailable": 0
+		}, {
+			"pos": 3,
+			"is_guard_status": 0,
+			"is_guard_unavailable": 0
+		}],
+		"chain_burst_gauge": "0",
+		"special_skill_indicate": [],
+		"is_forced_retire": false,
+		"ability": {
+			"1": {
+				"mode": "player",
+				"pos": 0,
+				"alive": 1,
+				"src": "http:\/\/game.granbluefantasy.jp\/assets\/img\/sp\/assets\/leader\/ds\/370601_me_1_01.jpg",
+				"list": {
+					"1": [{
+						"class": "ico-ability23_1 ability-character-num-1-1",
+						"ability-id": "285",
+						"ability-recast": "0",
+						"recaset-default": "5",
+						"recast-additional-comment": "",
+						"duration": "2",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 0,
+						"text-data": "カウンター効果(被ダメージ\/3回)\/自分の防御UP\/敵対心UP",
+						"ability-name": "ナイフハンド・ストライク",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"buff": [{
+								"status": "1541",
+								"detail": "ダメージを受けた際に相手に攻撃する状態",
+								"effect": "2ターン",
+								"help_flag": ""
+							}, {
+								"status": "1019",
+								"detail": "防御力が上昇した状態",
+								"effect": "2ターン",
+								"help_flag": ""
+							}, {
+								"status": "1463",
+								"detail": "攻撃のターゲットになりやすい状態",
+								"effect": "2ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-1-1",
+						"value": "0"
+					}],
+					"2": [{
+						"class": "ico-ability302_1 ability-character-num-1-2",
+						"ability-id": "8000",
+						"ability-recast": "0",
+						"recaset-default": "15",
+						"recast-additional-comment": "",
+						"duration": "",
+						"duration-second": "",
+						"duration-type": "",
+						"ability-character-num": 0,
+						"text-data": "味方全体がターン経過なしで通常攻撃を実行",
+						"ability-name": "ツープラトン",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": true
+					}, {
+						"class": "num-recast-a0 ability-icon-num-1-2",
+						"value": "0"
+					}]
+				}
+			},
+			"2": {
+				"mode": "npc",
+				"pos": 1,
+				"alive": 1,
+				"src": "http:\/\/game.granbluefantasy.jp\/assets\/img\/sp\/assets\/npc\/ds\/3040278000.jpg",
+				"list": {
+					"1": [{
+						"class": "ico-ability1162_1 ability-character-num-2-1",
+						"ability-id": "221201",
+						"ability-recast": "0",
+						"recaset-default": "6",
+						"recast-additional-comment": "",
+						"duration": "3",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 1,
+						"text-data": "敵に8回闇属性ダメージ\/暗闇効果\/強襲効果を付与",
+						"ability-name": "アサルト・ブロー＋",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "66666666,,",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"debuff": [{
+								"status": "1032_33",
+								"detail": "攻撃が稀にミスになる状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}, {
+								"status": "63353",
+								"detail": "ブレイク状態の敵に対して発動する効果を受ける状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-2-1",
+						"value": "0"
+					}],
+					"2": [{
+						"class": "ico-ability1163_3 ability-character-num-2-2",
+						"ability-id": "221221",
+						"ability-recast": "0",
+						"recaset-default": "4",
+						"recast-additional-comment": "",
+						"duration": "8",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 1,
+						"text-data": "<div class=prt-text-small>自分に逆境効果\/闇属性追撃効果\/ターン進行時に攻撃行動を2回行う<br><span class=text-blue>◆自分のHPを最大値の40%消費<\/span><\/div>",
+						"ability-name": "クリーピング・シャドウ＋",
+						"icon-type": "3",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": ",6,,",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"buff": [{
+								"status": "1181",
+								"detail": "自分のHPが少なくなるほど攻撃力が大きく上昇する状態",
+								"effect": "8ターン",
+								"help_flag": ""
+							}, {
+								"status": "1383",
+								"detail": "通常攻撃時に闇属性の追加ダメージが発生する状態",
+								"effect": "1ターン",
+								"help_flag": ""
+							}, {
+								"status": "6107",
+								"detail": "ターン進行時に攻撃行動を2回行う状態",
+								"effect": "1ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-2-2",
+						"value": "0"
+					}],
+					"3": [{
+						"class": "ico-ability1164_3 ability-character-num-2-3",
+						"ability-id": "221231",
+						"ability-recast": "0",
+						"recaset-default": "6",
+						"recast-additional-comment": "",
+						"duration": "1",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 1,
+						"text-data": "<div class=prt-text-small>自分の攻撃大幅UP(敵ブレイク時のみ\/1回)\/クリティカル確率UP　<span class=text-blue>◆瀕死状態の場合、敵の全ての攻撃を回避(1回)<\/span><\/div>",
+						"ability-name": "ラフィング・ファントム",
+						"icon-type": "3",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"buff": [{
+								"status": "1053",
+								"detail": "ブレイク状態の敵への攻撃力が上昇した状態",
+								"effect": "1ターン",
+								"help_flag": ""
+							}, {
+								"status": "1001",
+								"detail": "攻撃力が上昇した状態",
+								"effect": "1ターン",
+								"help_flag": ""
+							}, {
+								"status": "1279",
+								"detail": "弱点を突いた際に稀にダメージが上昇する状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}, {
+								"status": "1405_21",
+								"detail": "効果中に回数分、被ダメージと弱体効果を無効化する状態",
+								"effect": "",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-2-3",
+						"value": "0"
+					}]
+				}
+			},
+			"3": {
+				"mode": "npc",
+				"pos": 2,
+				"alive": 1,
+				"src": "http:\/\/game.granbluefantasy.jp\/assets\/img\/sp\/assets\/npc\/ds\/3040035000.jpg",
+				"list": {
+					"1": [{
+						"class": "ico-ability1025_3 ability-character-num-3-1",
+						"ability-id": "218121",
+						"ability-recast": "0",
+						"recaset-default": "6",
+						"recast-additional-comment": "",
+						"duration": "3",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 2,
+						"text-data": "自分の通常攻撃の与ダメージUP\/闇属性追撃効果",
+						"ability-name": "惡門・羅刹＋＋",
+						"icon-type": "3",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": ",6",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"buff": [{
+								"status": "6568",
+								"detail": "通常攻撃、カウンターで与えるダメージが上昇した状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}, {
+								"status": "1383",
+								"detail": "通常攻撃時に闇属性の追加ダメージが発生する状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-3-1",
+						"value": "0"
+					}],
+					"2": [{
+						"class": "ico-ability23_1 ability-character-num-3-2",
+						"ability-id": "218151",
+						"ability-recast": "0",
+						"recaset-default": "6",
+						"recast-additional-comment": "",
+						"duration": "1",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 2,
+						"text-data": "自分の敵対心UP\/カウンター効果(回避・被ダメージ\/6回)",
+						"ability-name": "迅門・紫電＋＋",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"buff": [{
+								"status": "1463",
+								"detail": "攻撃のターゲットになりやすい状態",
+								"effect": "1ターン",
+								"help_flag": ""
+							}, {
+								"status": "1062_3",
+								"detail": "通常攻撃を無効化または、ダメージを受けた際に相手に攻撃する状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-3-2",
+						"value": "0"
+					}],
+					"3": [{
+						"class": "ico-ability1009_1 ability-character-num-3-3",
+						"ability-id": "218171",
+						"ability-recast": "0",
+						"recaset-default": "6",
+						"recast-additional-comment": "",
+						"duration": "3",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 2,
+						"text-data": "敵全体に6倍闇属性ダメージ\/恐怖効果\/命中率DOWN",
+						"ability-name": "鬼門・修羅＋",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": ",6,,",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"debuff": [{
+								"status": "1374_13",
+								"detail": "CTが溜まらなくなる状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}, {
+								"status": "1032_43",
+								"detail": "通常攻撃\/特殊技\/特殊行動が確率でミスになる状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-3-3",
+						"value": "0"
+					}],
+					"4": [{
+						"class": "ico-ability365_3 ability-character-num-3-4",
+						"ability-id": "8019",
+						"ability-recast": 6,
+						"recaset-default": "9999",
+						"recast-additional-comment": "",
+						"duration": "4",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 2,
+						"text-data": "<div class=prt-text-small>4ターンの間敵からの攻撃を全て回避\/ターン進行時に攻撃行動を2回行う　<span class=text-blue>◆再使用不可<\/span><\/div>",
+						"ability-name": "六崩の悟り",
+						"icon-type": "3",
+						"ability-pick": "",
+						"start_skill_set_recast": 6,
+						"ability-attribute": "",
+						"full-auto-permit-flag": false,
+						"ability_detail": {
+							"buff": [{
+								"status": "1019",
+								"detail": "効果中の被ダメージと弱体効果を無効化する状態(消去不可)",
+								"effect": "4ターン",
+								"help_flag": ""
+							}, {
+								"status": "6107",
+								"detail": "ターン進行時に攻撃行動を2回行う状態(消去不可)",
+								"effect": "4ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a6 ability-icon-num-3-4",
+						"value": 6
+					}]
+				}
+			},
+			"4": {
+				"mode": "npc",
+				"pos": 3,
+				"alive": 1,
+				"src": "http:\/\/game.granbluefantasy.jp\/assets\/img\/sp\/assets\/npc\/ds\/3040092000.jpg",
+				"list": {
+					"1": [{
+						"class": "ico-ability258_1 ability-character-num-4-1",
+						"ability-id": "2340",
+						"ability-recast": "0",
+						"recaset-default": "8",
+						"recast-additional-comment": "",
+						"duration": "3",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 3,
+						"text-data": "<div class=prt-text-small>敵に弱点属性ダメージ\/自分に逆境効果<br><span class=text-blue>◆自分の残りHPが少ないほどダメージUP<\/span><\/div>",
+						"ability-name": "レゾルーション＋",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"buff": [{
+								"status": "1181",
+								"detail": "自分のHPが少なくなるほど攻撃力が大きく上昇する状態",
+								"effect": "3ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-4-1",
+						"value": "0"
+					}],
+					"2": [{
+						"class": "ico-ability259_3 ability-character-num-4-2",
+						"ability-id": "6199",
+						"ability-recast": "0",
+						"recaset-default": "14",
+						"recast-additional-comment": "",
+						"duration": "1",
+						"duration-second": "",
+						"duration-type": "ターン",
+						"ability-character-num": 3,
+						"text-data": "<div class=prt-text-small>味方全体のHPを1にする\/1ターンの間被ダメージ無効\/4ターンの間HP吸収効果付与<\/div>",
+						"ability-name": "コンジャクション＋",
+						"icon-type": "3",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"buff": [{
+								"status": "1028",
+								"detail": "次に受ける被ダメージを無効化する状態",
+								"effect": "1ターン",
+								"help_flag": ""
+							}, {
+								"status": "1180",
+								"detail": "通常攻撃の与ダメージの一部を自身のHPに吸収する状態(消去不可)",
+								"effect": "4ターン",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-4-2",
+						"value": "0"
+					}],
+					"3": [{
+						"class": "ico-ability209_1 ability-character-num-4-3",
+						"ability-id": "2822",
+						"ability-recast": "0",
+						"recaset-default": "6",
+						"recast-additional-comment": "",
+						"duration": "",
+						"duration-second": "180",
+						"duration-type": "",
+						"ability-character-num": 3,
+						"text-data": "敵全体に闇属性ダメージ\/ランダムで弱体効果",
+						"ability-name": "サンダー",
+						"icon-type": "1",
+						"ability-pick": "",
+						"start_skill_set_recast": 0,
+						"ability-attribute": "",
+						"full-auto-permit-flag": true,
+						"ability_detail": {
+							"debuff": [{
+								"status": "1428",
+								"detail": "攻撃力が減少した状態(累積)",
+								"effect": "180秒",
+								"help_flag": ""
+							}, {
+								"status": "1427",
+								"detail": "防御力が減少した状態(累積)",
+								"effect": "180秒",
+								"help_flag": ""
+							}, {
+								"status": "1524",
+								"detail": "弱体耐性が減少した状態(累積)",
+								"effect": "180秒",
+								"help_flag": ""
+							}]
+						}
+					}, {
+						"class": "num-recast-a0 ability-icon-num-4-3",
+						"value": "0"
+					}]
+				}
+			}
+		}
+	},
+	"navi_information": [{
+		"navi": "none"
+	}],
+	"duplicate_key": 1,
+	"lyria_pos": -1,
+	"microtime": "1613637327.08179200"
+}

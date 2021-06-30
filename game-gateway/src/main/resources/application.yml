@@ -1,0 +1,31 @@
+game:
+  gateway:
+    server:
+      config:
+        port: 16001  # 游戏网关的长连接端口，这里的数据是自定义配置。
+        boss-thread-count: 10
+        work-thread-count: 120
+        server-id: 1001
+        service-id: 1
+        business-game-message-topic: business-game-message-topic # 向游戏服务发送消息 的Topic前缀
+        gateway-game-message-topic: gateway-game-message-topic-${game.gateway.server.config.server-id}
+        #接收游戏服务响应消息的Topic
+        rb-gateway-game-message-topic: rb-gateway-game-message-topic-${game.gateway.server.config.server-id}
+        #专门接收RaidBattle响应回客户端的Topic
+    waitlines:
+      #排队设定
+      config:
+        #同一秒 [登陆] 允许做大的请求令牌 即QPS
+        login-permits-per-seconds: 200
+        #令牌数取得率变成恒速前的热身时间  最大存量的同时,初启动时的令牌数也是 = maxPermits * warmUpPeriodSeconds个
+        warmUp-period-seconds: 1
+        #同时排队的最大人数
+        max-waiting-requests: 1000
+        #未登陆的player最多在队列里发呆多少秒后,踢出
+        fake-seconds: 10
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"

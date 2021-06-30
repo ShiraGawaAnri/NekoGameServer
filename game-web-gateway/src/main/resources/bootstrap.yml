@@ -1,0 +1,48 @@
+server:
+  port: 5001
+  ssl:
+    enabled: false
+#    key-alias: my-game-web
+#    key-store: config/my-game-web.p12
+#    key-store-password: changeit
+#    key-store-type: PKCS12
+spring:
+  profiles:
+    active:
+      - dev
+  application:
+    name: game-web-gateway-server
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false
+      routes:
+        - id: game-center-server
+          uri: lb://game-center-server
+          predicates:
+            - name: Path
+              args:
+                pattern: /game-center-server/**
+          filters:
+            - name: RewritePath
+              args:
+                regexp: /game-center-server/(?<remaining>.*)
+                replacement: /${remaining}
+    nacos:
+      discovery:
+        ip: 127.0.0.1
+        register-enabled: true
+        server-addr: 127.0.0.1:8848
+        namespace: b8142ed2-6e55-49f3-9e7a-ca83ed3679b6
+        metadata:
+          serverId: ${gateway.server.config.server-id}
+          serviceId: ${gateway.server.config.service-id}
+          weight: 3
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        namespace: b8142ed2-6e55-49f3-9e7a-ca83ed3679b6
+        extension-configs:
+          - data-id: basic.yaml
+            refresh: true

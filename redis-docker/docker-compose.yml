@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  redis:
+    image: 'redis:5.0'
+    restart: always
+    hostname: 127.0.0.1
+    container_name: redis
+    ports:
+      - '6379:6379'
+    command: redis-server /usr/local/etc/redis/redis.conf
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+      - ./redis/data:/data
+      - ./redis/logs:/logs

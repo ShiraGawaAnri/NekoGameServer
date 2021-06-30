@@ -1,0 +1,11 @@
+game:
+  server:
+    config:
+      service-id: 9999   #服务器中配置服务Id
+      server-id: 9999  #当前服务器的id
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"

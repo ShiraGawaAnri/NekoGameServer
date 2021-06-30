@@ -1,0 +1,16 @@
+syntax = "proto2"; //指定protobuf语法版本
+
+option java_package = "com.mygame.game.message.body";//包名
+//源文件类名
+option java_outer_classname = "ThirdMsgBody";
+
+message ThirdMsgRequestBody{//请求消息消息体
+	optional string value1 = 1;
+	optional int64 value2 = 2;//表示一个long类型的值
+}
+message ThirdMsgResponseBody{//响应消息消息体
+	optional string value1 = 1;
+	optional int32 value2 = 2;//表示一个int类型的值
+	optional string value3 = 3;
+}
+

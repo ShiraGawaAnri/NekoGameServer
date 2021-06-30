@@ -1,0 +1,20 @@
+syntax = "proto3";
+option java_package = "com.nekonade.common.proto";
+
+message RaidBattleEffectDTO{
+  string effectId = 1;
+  int32 effectProp = 2;
+  int32 effectType = 3;
+  reserved 4;
+  int32 effectStack = 5;
+  int32 effectMaxStack = 6;
+  sint32 effectiveSecond = 7;
+  sint32 effectiveTurn = 8;
+  int32 dispelByOther = 9;
+  double value1 = 10;
+  double value2 = 11;
+  double value3 = 12;
+  double value4 = 13;
+  reserved 14 to 20;
+  string description = 21;
+}

@@ -1,0 +1,145 @@
+syntax = "proto3";
+import "google/protobuf/any.proto";
+import "Common.proto";
+//import "com/nekonade/network/param/proto/Common.proto";
+
+option java_package = "com.nekonade.common.proto";//包名
+//源文件类名
+option java_outer_classname = "RaidBattleAttackMsgBody";
+
+
+message RaidBattleAttackMsgRequestBody{
+  int32 charaPos = 1;
+  string charaId = 2;
+  string chardId = 3;
+  int32 targetPos = 4;
+  repeated int32 selectCharaPos = 5;
+  int64 turn = 6;
+  int64 timestamp = 7;
+}
+
+
+message RaidBattleAttackMsgResponseBody{
+  string raidId = 1;
+  repeated google.protobuf.Any scenario = 2;
+  Status status = 3;
+}
+
+message _Command {
+
+}
+
+message Condition {
+  int32 pos = 1;
+  string targetTo = 2;
+  map<string,RaidBattleEffectDTO> buffs = 3;
+  map<string,RaidBattleEffectDTO> debuffs = 4;
+}
+
+message Damage {
+  int32 element = 1;
+  int32 pos = 2;
+  int64 value = 3;
+  int64 hp = 4;
+  bool critical = 5;
+  int32 miss = 6;
+  bool guard = 7;
+  string effect = 8;
+}
+
+message Contribution {
+  int32 amount = 1;
+}
+
+message UltimateTypeAttack{
+  string ultimateTypeAttackId = 1;
+  int32 pos = 2;
+  string targetTo = 3;
+  int32 toPos = 4;
+  int32 element = 5;
+  repeated Damage damages = 6;
+}
+
+message MessageText{
+  Data data = 1;
+}
+
+message Data{
+  repeated MessageTarget characters = 1;
+  repeated MessageTarget bosses = 2;
+}
+
+message MessageTarget{
+  int32 pos = 1;
+  int32 type = 2;
+  string text = 3;
+  string status = 4;
+  int32 miss = 5;
+  Additional additional = 6;
+}
+
+message Recast{
+  int32 pos = 1;
+  int32 type = 2;
+  int32 value = 3;
+  repeated string recasts = 4;
+}
+
+message ModeChange{
+  int32 pos = 1;
+  int32 mode = 2;
+  double gauge = 3;
+  Additional additional = 4;
+}
+
+message Additional{
+  MessageText message = 1;
+  string effect = 2;
+}
+
+message BossGauge{
+  int32 pos = 1;
+  int32 element = 2;
+  int64 hp = 3;
+  int64 maxHp = 4;
+}
+
+message FormChange{
+  int32 form = 1;
+  int32 pos = 2;
+  string targetTo = 3;
+
+}
+
+message Attack {
+  string from = 1;
+  int32 pos = 2;
+  repeated Damage damages = 3;
+  Additional additional = 4;
+  bool concurrentAttack = 5;
+  bool allAttack = 6;
+}
+
+/**
+    private List<ModeChange> bossModes;
+
+    private List<Guard> guards;
+
+    private double chainBurstGauge;
+
+    private List<Cards> cards;
+ */
+
+
+message Status{
+  repeated ModeChange bossModes = 1;
+  repeated Guard guards = 2;
+  double chainBurstGauge = 3;
+
+}
+
+message Guard{
+  int32 pos = 1;
+  bool guarding = 2;
+  bool unavailable = 3;
+}

@@ -1,0 +1,22 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        #  include: '*'
+        include: ["health","gateway"]
+game-center-server:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.nekonade.web.gateway.balance.GameCenterBalanceRule
+gateway:
+  server:
+    config:
+      service-id: 102   #服务器中配置服务Id
+      server-id: 10102
+  filter:
+    white-request-uri:
+      - /request/10001
+      - /test/https
+    user-request-rate-count: 100
+    global-request-rate-count: 3000
+    cache-user-max-count: 50000
+    cache-user-timeout: 300000
