@@ -31,6 +31,13 @@ import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 import org.springframework.shell.standard.ShellOption;
 
+/**
+ * @ClassName: IMClientCommand
+ * @Author: Lily
+ * @Description: 客户端输入指令2
+ * @Date: 2021/6/30
+ * @Version: 1.0
+ */
 @ShellComponent
 public class IMClientCommand {
     private static final Logger logger = LoggerFactory.getLogger(IMClientCommand.class);

@@ -19,6 +19,14 @@ import org.springframework.shell.standard.ShellMethod;
 import org.springframework.shell.standard.ShellOption;
 import org.springframework.util.StringUtils;
 
+
+/**
+ * @ClassName: GameClientCommand
+ * @Author: Lily
+ * @Description: 客户端输入指令
+ * @Date: 2021/6/30
+ * @Version: 1.0
+ */
 @ShellComponent
 public class GameClientCommand {
 
