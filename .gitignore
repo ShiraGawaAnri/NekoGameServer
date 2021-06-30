@@ -1,3 +1,6 @@
+#custom
+!assets/nacos_config.zip
+
 # maven ignore
 target/
 *.jar
@@ -60,3 +63,5 @@ mybaties-*.xml
 
 # production
 /build
+
+
