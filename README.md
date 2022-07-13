@@ -15,7 +15,7 @@
 3. 手把手从0开始到0.1的Netty通信,自定义封包,Protobuff和JSON性能对比例子
 4. Gateway和集群,无感知切换处理端
 5. 配置中心与AutoConfiguration的坑与沥青
-6. 人数上限较高的多人战下(>=30 , ~ <=120),关于Kafak等相应的处理
+6. 人数上限较高的多人战下(>=30 , ~ <=120),关于kafka等相应的处理
 7. Guava的限流器的运用
 8. CaffeineCacheManager、Redis等构成三级缓存的实际案例
 9. 被绕晕的线程的运用和对应的轮子
